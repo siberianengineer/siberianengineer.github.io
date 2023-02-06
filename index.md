@@ -2,14 +2,15 @@
 
 this is code
 
-`function Output-SalesTax {
+```
+function Output-SalesTax {
  param( [int]$Price, [int]$Tax )
  $Price + $Tax
 }
 
 PS C:\> Output-SalesTax -price 1000 -tax 38
 1038
-`
+```
 
 ## How to Reboot Linux
 put instructions here
